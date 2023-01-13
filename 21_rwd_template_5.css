@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&family=Mountains+of+Christmas:wght@700&display=swap');
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col- {
+    float: left;
+    padding: 15px;
+}
+
+.html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: #94f58c;
+    color:#a676c2;
+    padding: 15px;
+    font-size:30px;
+    font-family: 'Mountains of Christmas', cursive;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 3px 3px #f2b8a2;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color:#f2b8a2;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+        0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.menu li:hover {
+    background-color: #7da679;
+}
+
+.aside:hover {
+    background-color: #f2b8a2;
+}
+
+.aside {
+    background-color: #a676c2;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+        0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+
+.footer {
+    background-color:#7da679;
+    color:white ;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.col-{
+    width: 100%;}
+
